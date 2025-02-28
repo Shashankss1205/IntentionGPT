@@ -1,0 +1,121 @@
+/* PromptInput.css */
+.prompt-container {
+  position: relative;
+  padding: 10px;
+  border-top: 1px solid #e0e0e0;
+  background-color: white;
+}
+
+.prompt-form {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+.prompt-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.option-button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  transition: background-color 0.2s;
+}
+
+.option-button:hover {
+  background-color: #e0e0e0;
+}
+
+.plus-button {
+  font-size: 18px;
+}
+
+.search-button, .reason-button {
+  font-size: 16px;
+}
+
+.send-button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background-color: #0066cc;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.send-button:hover:not(:disabled) {
+  background-color: #0052a3;
+}
+
+.send-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.disclaimer {
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.attached-files {
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.attached-file {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.file-type-icon {
+  margin-right: 6px;
+}
+
+.file-name {
+  max-width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 13px;
+}
+
+.remove-attachment {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #666;
+  margin-left: 6px;
+  font-size: 16px;
+  padding: 0 2px;
+}
+
+.remove-attachment:hover {
+  color: #333;
+}

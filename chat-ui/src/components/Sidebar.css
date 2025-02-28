@@ -1,0 +1,88 @@
+/* Sidebar.css */
+.sidebar {
+    width: 260px;
+    background-color: #f7f7f8;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #e5e5e5;
+    padding: 10px;
+  }
+  
+  .top-items {
+    margin-bottom: 20px;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .nav-item:hover {
+    background-color: #ececec;
+  }
+  
+  .nav-item.active {
+    background-color: #e6e6e6;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .new-chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .new-chat:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .date-group h3 {
+    font-size: 0.8rem;
+    color: #666;
+    margin: 15px 0 5px 10px;
+  }
+  
+  .conversation-item {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .conversation-item:hover {
+    background-color: #ececec;
+  }
+  
+  .upgrade-plan {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    border-top: 1px solid #e5e5e5;
+  }
+  
+  .upgrade-text {
+    margin-left: 10px;
+  }
+  
+  .sub-text {
+    font-size: 0.8rem;
+    color: #666;
+  }
+  

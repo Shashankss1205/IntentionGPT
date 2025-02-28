@@ -1,0 +1,49 @@
+/* Message.css */
+.message {
+    display: flex;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .message.user {
+    background-color: #f7f7f8;
+  }
+  
+  .message.assistant {
+    background-color: white;
+  }
+  
+  .message.error {
+    background-color: #fff8f8;
+    color: #d93025;
+  }
+  
+  .avatar {
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .content {
+    flex: 1;
+    font-size: larger;
+  }
+  
+  .message-actions {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .action-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+  .action-button:hover {
+    background-color: #f0f0f0;
+  }
