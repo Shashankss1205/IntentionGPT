@@ -34,8 +34,8 @@ export const fetchResponse = async (message, chatHistory, files = []) => {
       }
     }
     
-    console.log('Making fetch request to http://localhost:5000/api/chat');
-    const response = await fetch('http://localhost:5000/api/chat', {
+    console.log('Making fetch request to https://intentiongpt.onrender.com/api/chat');
+    const response = await fetch('https://intentiongpt.onrender.com/api/chat', {
       method: 'POST',
       body: formData,
       // Do NOT set Content-Type header when using FormData
@@ -83,7 +83,7 @@ export const processFiles = async (files, prompt = "") => {
       console.log(`FormData contains: ${key} = ${value instanceof File ? value.name : value}`);
     }
     
-    const response = await fetch('http://localhost:5000/api/process-files', {
+    const response = await fetch('https://intentiongpt.onrender.com/api/process-files', {
       method: 'POST',
       body: formData,
       // Important: Do NOT set Content-Type header when using FormData
